@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="OpsPulse" constructor="Counter" version="0.0.1" display-name-key="Counter" description-key="Counter description" control-type="standard" >
+
+    <external-service-usage enabled="false">
+    
+    </external-service-usage>
+    <property name="counterValue" display-name-key="Counter Value" description-key="Property_Desc_Key" of-type="Whole.None" usage="bound" required="true" />
+    
+    <resources>
+      <code path="index.ts" order="1"/>
+     <!-- <css path="css/Counter.css" order="1"/> -->
+    </resources>
+ 
+  </control>
+</manifest>
